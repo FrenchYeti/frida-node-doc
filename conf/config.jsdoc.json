@@ -1,0 +1,50 @@
+
+
+{
+    "source": {
+        "includePattern": ".+\\.js(doc|x)?$",
+        "excludePattern": ".*(node_modules|webserver).*"
+    },
+    "plugins": [
+        "plugins/markdown"
+    ],
+    "opts": {
+        "template": "assets/template/docdash/",
+        "encoding": "utf8",
+        "destination": "docs/",
+        "recurse": true,
+        "verbose": true
+    },
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false
+    },
+    "tags": {
+        "allowUnknownTags": false
+    },
+    "docdash": {
+        "static": true,
+        "sort": true,
+        "disqus": "",
+		"meta": {
+			"title": "Unofficial frida-node code documentation",
+			"description": "Unofficial froda-node source code doc",
+			"keyword": "frida, node"
+		},
+        "search": true,
+        "collapse": true,
+        "typedefs": true,
+        "removeQuotes": "none",
+        "scripts": [],
+        "menu":{
+            "Github repo":{
+                "href":"https://github.com/frenchyeti/frida-node-doc",
+                "target":"_blank",
+                "class":"menu-item",
+                "id":"repository"
+            }
+        }
+    }
+}
+
+

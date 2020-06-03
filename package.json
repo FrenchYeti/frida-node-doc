@@ -1,0 +1,29 @@
+{
+  "name": "frida-node-doc",
+  "version": "1.0.0",
+  "description": "Unofficial frida-node documentation",
+  "main": "index.js",
+  "scripts": {
+    "docs": "./node_modules/.bin/jsdoc -d ./public -r ./code -c ./conf/config.jsdoc.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrenchYeti/frida-node-doc.git"
+  },
+  "keywords": [
+    "frida","node"
+  ],
+  "author": "Georges-B. MICHEL",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/FrenchYeti/frida-node-doc/issues"
+  },
+  "homepage": "https://github.com/FrenchYeti/frida-node-doc#readme",
+  "devDependencies": {
+    "jsdoc": "^3.6.4"
+  },
+  "dependencies": {
+    "docdash": "^1.2.0"
+  }
+}
